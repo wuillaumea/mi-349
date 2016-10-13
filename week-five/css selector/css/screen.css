@@ -1,0 +1,32 @@
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+body {
+  /* #ccc is shorthand HEX for a light grey */
+  background: #ccc;
+}
+
+.header{
+  font-size: 30px;
+  border: 40px;
+  background: yellow;
+}
+
+#About {
+    font-size: 20px;
+    border: 15px;
+    border-radius: 20px;
+    background:lightslategrey;
+    text-align: center;
+    width:60%;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+#otherp {
+    font-size: 30px;
+    border: 30px;
+    border-radius: 10px;
+    background: navajowhite;
+}
