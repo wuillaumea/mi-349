@@ -1,0 +1,61 @@
+body {
+  /* #ccc is shorthand HEX for a light grey */
+  background: lightsteelblue;
+}
+
+#header {
+    margin: auto;
+    border-radius: 10px;
+    width: 600px;
+    height: 80px;
+    border:  solid black 5px;
+    background: mintcream;
+    color : black;
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    vertical-align: middle;
+    line-height: 0px;
+    margin-top: 3px;
+    box-shadow: 10px 10px 5px steelblue; 
+}
+
+.recipe {
+    margin: auto;
+    font-size: 20px;
+    border: 15px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, lightsteelblue, lightslategray);
+    text-align: left;
+    width: 60%;
+    color: black;
+}
+
+.recipe h3{
+    font-size: 30px;
+    padding-top: 10px;
+    margin: 5%;
+}
+
+.recipe h4{
+    line-height: 0px;
+    margin: 5%;
+}
+
+.recipe ol{
+      padding-bottom: 10px;
+    }
+
+.recipe img{ 
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
