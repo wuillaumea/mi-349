@@ -1,0 +1,20 @@
+Alex Wuillaume
+
+Final Project Copy Lab (draft)
+
+Header
+	The header of each page should contain dropdown links to different pages of the site. It will also contain a logo with a name of the site.
+
+Recipe Pages
+	While there will be many different recipes available to choose from, each will follow a consistent theme. Checkmark boxes will appear next to each step in the instructions, allowing a user to keep track of their progress as they create their meal. 
+	Embedded videos should be seamlessly integrated above the instructions on commonly watched recipes, allowing a user to simply listen or watch someone else go through the steps to create the pizza. 
+
+Recipe Search
+	Must be able to sort by difficulty, ingredients, rating, and cost. Thumbnails of each pizza should appear next to the link to the recipes. Next page options and option to decide how many results show up per page.
+
+Staff Page
+	The staff page should be its own page, with small pictures of each person/chef involved and text underneath. 
+
+Footer
+	The footer of the page should contain common social media buttons that can bring users to related social media sites to share the site.
+	An index should also exist in the footer, that allows users to visit commonly visited pages.
