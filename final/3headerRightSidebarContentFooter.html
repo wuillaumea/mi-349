@@ -5,12 +5,13 @@
     <script src="assets/jquery.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <style>
-        body{
-        margin:0;
-        background-color: lightgrey;
+        body {
+            margin: 0;
+            background-color: lightgrey;
         }
-
+        
         .container {
             display: -webkit-flex;
             display: flex;
@@ -25,7 +26,6 @@
         }
         
         .header {
-            background: orange;
             text-align: left;
             font-family: 'Bungee Inline';
             font-size: 3em;
@@ -33,27 +33,54 @@
             padding-top: .25em;
             padding-bottom: 20px;
         }
-
-        .redbar{
-            background: darkred;
+        
+        .redbar {
+            background: #563232;
+            background: -webkit-linear-gradient(top, #563232, lightgrey);
+            background: -o-linear-gradient(top, #563232, lightgrey);
+            background: linear-gradient(top, #563232, lightgrey);
             padding: 0px;
             height: 80px;
         }
         
         .content {
-            background: greenyellow;
+            font-family: 'rubik';
+            font-size: 2em;
             flex: 3 0px;
         }
         
+        .button {
+            margin: auto;
+            margin-top: 30px;
+            width: 40%;
+            text-align: center;
+            padding: 20px;
+            background: #935454;
+            border-radius: 5px;
+            box-shadow: 5px 5px 2px #888888;
+        }
+        
+        .button:hover {
+            background: #563232;
+            color: white;
+            -moz-transition: all 0.15s linear;
+            -webkit-transition: all 0.15s linear;
+            -o-transition: all 0.15s linear;
+            transition: all 0.15s linear;
+
+        }
+        
         .footer {
-            background: pink;
+            background: #444444;
         }
         
         .right {
+            border-style: solid;
+            border-right: 0;
+            border-color: #563232;
             background: lightyellow;
             flex: 1 auto;
         }
-
     </style>
 
     <meta charset="utf-8">
@@ -66,18 +93,18 @@
 
 <body>
     <div class="container">
-        <div class="header"> PizzaBuilder.io 
+        <div class="header"> PizzaBuilder.io
             <div class="redbar">
             </div>
         </div>
-        <div class="content"> Content. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div class="content"> Ever wanted to <i>simply</i> make a pizza? <br> Well you've come to the right place!</br>
+            <div class="button"> Start Building!
+            </div>
         </div>
         <aside class="aside right"> Right sidebar</aside>
         <div class="footer"> Footer of the page </div>
     </div>
 </body>
+
 
 </html>
