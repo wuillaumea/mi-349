@@ -46,7 +46,7 @@
         .content {
             font-family: 'rubik';
             font-size: 2em;
-            flex: 3 0px;
+            flex: 10 0px;
         }
         
         .button {
@@ -60,14 +60,24 @@
             box-shadow: 5px 5px 2px #888888;
         }
         
-        .button:hover {
+        .button1 {
+            margin: auto;
+            margin-top: 30px;
+            width: 80%;
+            text-align: center;
+            padding: 20px;
+            background: #935454;
+            border-radius: 5px;
+            box-shadow: 5px 5px 2px #888888;
+        }
+        
+        .button:hover, .button1:hover {
             background: #563232;
             color: white;
             -moz-transition: all 0.15s linear;
             -webkit-transition: all 0.15s linear;
             -o-transition: all 0.15s linear;
             transition: all 0.15s linear;
-
         }
         
         .footer {
@@ -95,13 +105,19 @@
     <div class="container">
         <div class="header"> PizzaBuilder.io
             <div class="redbar">
+
             </div>
         </div>
         <div class="content"> Ever wanted to <i>simply</i> make a pizza? <br> Well you've come to the right place!</br>
             <div class="button"> Start Building!
+
             </div>
         </div>
-        <aside class="aside right"> Right sidebar</aside>
+        <aside class="aside right"> Or...
+            <div class="button1"> Browse Existing recipes!
+
+            </div>
+        </aside>
         <div class="footer"> Footer of the page </div>
     </div>
 </body>
